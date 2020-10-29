@@ -93,30 +93,45 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="jHr-4D-Y8E"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="stepper1:" destination="BYZ-38-t0r" eventType="valueChanged" id="Wsd-Kb-nXZ"/>
+                                                </connections>
                                             </stepper>
                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="pSj-gf-1OR">
                                                 <rect key="frame" x="254" y="250" width="90" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="57a-0R-lFO"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="stepper2:" destination="BYZ-38-t0r" eventType="valueChanged" id="eVB-lC-HBj"/>
+                                                </connections>
                                             </stepper>
                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="J2D-QU-xei">
                                                 <rect key="frame" x="254" y="313" width="90" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="pGa-pQ-kBg"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="stepper3:" destination="BYZ-38-t0r" eventType="valueChanged" id="0hl-I3-A8h"/>
+                                                </connections>
                                             </stepper>
                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="XJI-3Q-r6J">
                                                 <rect key="frame" x="254" y="378" width="90" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="Z4D-7L-t0I"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="stepper4:" destination="BYZ-38-t0r" eventType="valueChanged" id="DHM-5d-FI4"/>
+                                                </connections>
                                             </stepper>
                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="yYe-TN-86d">
                                                 <rect key="frame" x="254" y="443" width="90" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="fsN-84-fms"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="stepper5:" destination="BYZ-38-t0r" eventType="valueChanged" id="7yQ-Ap-6RM"/>
+                                                </connections>
                                             </stepper>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADv-56-tOV">
                                                 <rect key="frame" x="349" y="187" width="45" height="32"/>
@@ -290,6 +305,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="aJg-mY-csN"/>
+                    <connections>
+                        <outlet property="labelStepper1" destination="ADv-56-tOV" id="zN9-eS-80R"/>
+                        <outlet property="labelStepper2" destination="3PE-97-wAB" id="K6v-kS-0PD"/>
+                        <outlet property="labelStepper3" destination="yO4-5v-EMO" id="Okn-0a-lyo"/>
+                        <outlet property="labelStepper4" destination="nca-hj-QLV" id="aGs-UH-6wq"/>
+                        <outlet property="labelStepper5" destination="t1e-N7-1ex" id="2Yp-f4-Do1"/>
+                        <outlet property="scrollView" destination="1UU-P9-B6q" id="C0w-gB-YyK"/>
+                        <outlet property="textInputItem1" destination="WvT-OQ-8lj" id="K9g-sE-jCK"/>
+                        <outlet property="textInputItem2" destination="oSp-Ls-Mex" id="bs9-ZI-Xp6"/>
+                        <outlet property="textInputItem3" destination="Bya-yW-PCv" id="0a4-8E-q7U"/>
+                        <outlet property="textInputItem4" destination="28c-gY-K3a" id="USY-Ry-BRs"/>
+                        <outlet property="textInputItem5" destination="G07-aY-jdl" id="cI7-YC-a1u"/>
+                        <outlet property="textInputListName" destination="TWk-Z5-FoK" id="OhA-zv-gN4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
